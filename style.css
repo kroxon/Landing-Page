@@ -133,14 +133,21 @@ button {
 
 .call {
     background-color: white;
+    padding-left: auto;
+    padding-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .blue-card {
     background-color: #3882F6;
-    margin: 64px 100px;
-    padding: 24px 48px;
+    margin: 64px 0;
+    width: fit-content;
+    padding: 24px 64px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 5px;
 }
 
 .calling {
